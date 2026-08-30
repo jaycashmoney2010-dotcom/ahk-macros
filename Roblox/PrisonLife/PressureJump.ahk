@@ -10,11 +10,11 @@ Process Priority,, High
 DllCall("Winmm\timeBeginPeriod", "UInt", 1)
 
 ; this is for the spin, ONLY CHANGE IT IF ITS TOO SLOW OR FAST!
-Spin := 4000
+Spin := 1500
 
 ; do not change this, this is for the base which the spin was orginally set for
-BaseDPI := 800
-BaseCS := 0.36
+BaseDPI := 1600
+BaseCS := 0.52
 
 ; settings for prefrence (change to your setup)
 DPI := 800
